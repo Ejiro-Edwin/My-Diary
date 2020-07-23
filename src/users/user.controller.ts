@@ -2,7 +2,6 @@ import * as express from 'express';
 import {User} from './user.interface';
 import * as jwt from 'jsonwebtoken';
 import { Password } from '../services/password';
-import { validateRequest, BadRequestError } from '../commons';
 
 class UsersController {
   public path = '/users';
